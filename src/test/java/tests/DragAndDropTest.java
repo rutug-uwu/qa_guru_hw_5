@@ -1,4 +1,4 @@
-package hw_tests;
+package tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
@@ -19,7 +19,6 @@ public class DragAndDropTest {
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://the-internet.herokuapp.com";
-        Configuration.holdBrowserOpen = true;
     }
 
     @AfterEach

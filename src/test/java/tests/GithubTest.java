@@ -1,4 +1,4 @@
-package hw_tests;
+package tests;
 
 
 import com.codeborne.selenide.Configuration;
